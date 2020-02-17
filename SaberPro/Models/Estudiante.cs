@@ -15,7 +15,7 @@ namespace SaberPro.Models
         [Required]
 
         public string Nombre { get; set; }
-        [Required]
+        
 
         public string Apellidos { get; set; }
         [Required]
@@ -27,16 +27,16 @@ namespace SaberPro.Models
         [Required]
 
         public int id_Ciudad { get; set; }
-        [Required]
+        
 
         public int Codigo_ProgAcademico { get; set; }
-        [Required]
+        
 
-
+        /*
         //ForeignKey con el ID de usuario
         [ForeignKey("id_Usuario_fk")]
         public int Usuario_id { get; set; }
         public Usuario id_Usuario_fk { get; set; }
-
+        */
     }
 }
